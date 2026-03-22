@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
 </p>
 
-**EasyBill** ek fast, lightweight aur professional billing application hai jo small business owners ke liye banayi gayi hai. Isse aap inventory manage kar sakte hain aur instantly digital bills generate karke download kar sakte hain.
+**EasyBill** is a fast, lightweight, and professional billing application designed for small business owners. Manage your inventory seamlessly and generate digital bills instantly.
 
 ---
 
@@ -16,33 +16,31 @@
 |:---:|:---:|:---:|
 | <img src="./assets/screenshots/info.png" width="200" /> | <img src="./assets/screenshots/inventory.png" width="200" /> | <img src="./assets/screenshots/billing.png" width="200" /> |
 
-> **Note:** `assets/screenshots/` folder mein apni images daal kar upar waale paths update kar lena.
-
 ---
 
 ## ✨ Features
 
-* 🚀 **Fast Billing:** 10 seconds ke andar bill generate karein.
-* 📦 **Inventory Tracker:** Items add karein aur prices manage karein.
-* 📥 **Downloadable Bills:** Professional receipts directly Gallery mein save karein.
+* 🚀 **Fast Billing:** Generate bills in under 10 seconds.
+* 📦 **Inventory Tracker:** Add items, set prices, and manage stock.
+* 📥 **Downloadable Bills:** Save professional receipts directly to your Gallery.
 * 🎨 **Modern UI:** Clean Material Design with Dark Mode support.
-* 🔒 **Privacy First:** Data aapke phone mein local rehta hai.
-* 💳 **UPI Ready:** Bill par UPI ID aur QR info display karein.
+* 🔒 **Privacy First:** All data remains locally on your device.
+* 💳 **UPI Integration:** Display your UPI ID and payment info on every bill.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React Native (Framework)
+- **Frontend:** React Native
 - **Language:** TypeScript & Kotlin
 - **Icons:** Material Community Icons
 - **Storage:** AsyncStorage (Local)
-- **Utilities:** - `react-native-view-shot` (Capture Bill)
-  - `react-native-camera-roll` (Gallery Save)
+- **Utilities:** - `react-native-view-shot` (Capture Receipts)
+  - `react-native-camera-roll` (Gallery Access)
 
 ---
 
-## 🚀 Installation & Setup
+## 🚀 Installation
 
 1. **Clone the Repo:**
    ```bash
