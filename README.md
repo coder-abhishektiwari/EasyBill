@@ -19,7 +19,7 @@ EasyBill is an offline Android billing app for small shop owners. Add your items
 
 | Billing | Bill History | Receipt | Settings |
 |:---:|:---:|:---:|:---:|
-| <img src="./assets/screenshots/billing.png" width="180" /> | <img src="./assets/screenshots/history.png" width="180" /> | <img src="./assets/screenshots/receipt.png" width="180" /> | <img src="./assets/screenshots/settings.png" width="180" /> |
+| <img src="https://github.com/user-attachments/assets/af6950f2-6815-4cf1-948d-9da1a6fe8162" width="180" /> | <img src="./assets/screenshots/history.png" width="180" /> | <img src="./assets/screenshots/receipt.png" width="180" /> | <img src="./assets/screenshots/settings.png" width="180" /> |
 
 ---
 
