@@ -1,12 +1,55 @@
-# 📝 EasyBill - Smart Inventory & Billing Solution
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React--Native-0.7x-blue?style=for-the-badge&logo=react" alt="React Native" />
-  <img src="https://img.shields.io/badge/Kotlin-1.9-purple?style=for-the-badge&logo=kotlin" alt="Kotlin" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
-</p>
+<br/>
 
-**EasyBill** is a fast, lightweight, and professional billing application designed for small business owners. Manage your inventory seamlessly and generate digital bills instantly.
+```
+███████╗ █████╗ ███████╗██╗   ██╗██████╗ ██╗██╗     ██╗
+██╔════╝██╔══██╗██╔════╝╚██╗ ██╔╝██╔══██╗██║██║     ██║
+█████╗  ███████║███████╗ ╚████╔╝ ██████╔╝██║██║     ██║
+██╔══╝  ██╔══██║╚════██║  ╚██╔╝  ██╔══██╗██║██║     ██║
+███████╗██║  ██║███████║   ██║   ██████╔╝██║███████╗███████╗
+╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═════╝ ╚═╝╚══════╝╚══════╝
+```
+
+### Smart Inventory & Billing — Built for Real Shops, Not Spreadsheets
+
+<br/>
+
+[![React Native](https://img.shields.io/badge/React_Native-0.7x-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.9-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://android.com/)
+[![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)](LICENSE)
+
+<br/>
+
+</div>
+
+---
+
+## 🧩 What Problem Does EasyBill Solve?
+
+Most small shop owners — **kirana stores, mobile repair shops, medical stores, stationery shops** — still rely on handwritten bills or messy Excel files. This causes:
+
+- ❌ Slow billing at the counter (customer waiting)
+- ❌ No record of inventory — items go out of stock without warning
+- ❌ Unprofessional receipts shared over WhatsApp
+- ❌ No UPI payment info on the bill
+- ❌ Data shared to cloud — privacy risk
+
+**EasyBill solves all of this.** It's a fully offline, fast, and professional billing app that runs entirely on your Android phone — no internet, no subscription, no data leak.
+
+---
+
+## 📱 App Overview
+
+EasyBill is a **React Native Android app** with three core modules:
+
+| Module | What It Does |
+|---|---|
+| 🏪 **Shop Setup** | Enter your shop name, address, GST number, UPI ID once — appears on every bill |
+| 📦 **Inventory Manager** | Add/edit/delete products with name, price, and stock quantity |
+| 🧾 **Billing Screen** | Search items, set quantity, generate a professional receipt, save to gallery |
 
 ---
 
@@ -14,34 +57,211 @@
 
 | Shop Info & Settings | Inventory Management | Billing Screen |
 |:---:|:---:|:---:|
-| <img src="./assets/screenshots/info.png" width="200" /> | <img src="./assets/screenshots/inventory.png" width="200" /> | <img src="./assets/screenshots/billing.png" width="200" /> |
+| <img src="./assets/screenshots/info.png" width="200" alt="Shop Info Screen" /> | <img src="./assets/screenshots/inventory.png" width="200" alt="Inventory Screen" /> | <img src="./assets/screenshots/billing.png" width="200" alt="Billing Screen" /> |
+| Set up your shop details once — name, GST, UPI ID | Add items, prices, and track stock levels | Select items, set quantities, generate a bill in seconds |
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-* 🚀 **Fast Billing:** Generate bills in under 10 seconds.
-* 📦 **Inventory Tracker:** Add items, set prices, and manage stock.
-* 📥 **Downloadable Bills:** Save professional receipts directly to your Gallery.
-* 🎨 **Modern UI:** Clean Material Design with Dark Mode support.
-* 🔒 **Privacy First:** All data remains locally on your device.
-* 💳 **UPI Integration:** Display your UPI ID and payment info on every bill.
+### 🚀 Bill in Under 10 Seconds
+Search for any item, set quantity, and the bill is ready. Designed for speed at the counter — no lag, no loading screens.
+
+### 📦 Smart Inventory Tracker
+Add your products once. EasyBill tracks stock quantity in real-time as you bill customers. Know exactly what's running low.
+
+### 📥 Downloadable Receipts
+Bills are captured as high-quality images and saved directly to your phone's Gallery. Share via WhatsApp or print anytime.
+
+### 💳 UPI Integration on Bills
+Your UPI ID and QR-friendly payment info is printed on every bill automatically — customers know exactly how to pay.
+
+### 🔒 100% Offline & Private
+All data stays on your device using AsyncStorage. Nothing goes to any server. No account needed, no subscription.
+
+### 🎨 Clean Material Design UI
+Professional, dark-mode-supported interface that looks good and works fast. Built with Material Community Icons for a native Android feel.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React Native
-- **Language:** TypeScript & Kotlin
-- **Icons:** Material Community Icons
-- **Storage:** AsyncStorage (Local)
-- **Utilities:** - `react-native-view-shot` (Capture Receipts)
-  - `react-native-camera-roll` (Gallery Access)
+```
+EasyBill
+├── Frontend          → React Native (TypeScript)
+├── Native Modules    → Kotlin (Android)
+├── UI Icons          → react-native-vector-icons (Material Community)
+├── Local Storage     → AsyncStorage
+├── Receipt Capture   → react-native-view-shot
+└── Gallery Save      → react-native-camera-roll
+```
+
+**Why this stack?**
+- **React Native + TypeScript** — Fast development with type safety
+- **AsyncStorage** — Lightweight local database, no setup required
+- **Kotlin Native Modules** — For performance-critical file operations
+- **react-native-view-shot** — Converts the bill component into a shareable image
 
 ---
 
-## 🚀 Installation
+## 🚀 How to Run Locally (Step-by-Step)
 
-1. **Clone the Repo:**
-   ```bash
-   git clone [https://github.com/your-username/EasyBill.git](https://github.com/your-username/EasyBill.git)
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v18 or above)
+- [Android Studio](https://developer.android.com/studio) with Android SDK
+- [JDK 17](https://www.oracle.com/java/technologies/downloads/)
+- React Native CLI: `npm install -g react-native-cli`
+- An Android device or emulator (API 24+)
+
+---
+
+### Step 1 — Clone the Repository
+
+```bash
+git clone https://github.com/your-username/EasyBill.git
+cd EasyBill
+```
+
+---
+
+### Step 2 — Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+### Step 3 — Android Setup
+
+Make sure your Android emulator is running OR connect a physical device with USB Debugging enabled.
+
+```bash
+# Check connected devices
+adb devices
+```
+
+---
+
+### Step 4 — Run the Metro Bundler
+
+```bash
+npx react-native start
+```
+
+Keep this terminal open.
+
+---
+
+### Step 5 — Build & Launch on Android
+
+Open a new terminal in the project folder and run:
+
+```bash
+npx react-native run-android
+```
+
+The app will build and install on your device/emulator automatically.
+
+---
+
+### Step 6 — First Launch Setup
+
+1. Open **EasyBill** on your device
+2. Go to ⚙️ **Settings / Shop Info**
+3. Enter your shop name, address, GST number, and UPI ID
+4. Save — this info will appear on every bill you generate
+
+---
+
+## 📖 How to Use EasyBill
+
+### Adding Products to Inventory
+
+1. Tap the **Inventory** tab
+2. Tap **"Add Item"** (+ button)
+3. Enter: Product Name, Price (₹), Stock Quantity
+4. Save — the item is now available during billing
+
+### Creating a Bill
+
+1. Go to the **Billing** tab
+2. Search for an item by name
+3. Set the quantity
+4. Add more items if needed
+5. Tap **"Generate Bill"**
+6. The bill preview appears with your shop info, items, total, and UPI details
+
+### Saving the Bill
+
+1. After generating the bill, tap **"Save to Gallery"**
+2. The receipt is saved as an image to your phone's gallery
+3. Share directly via WhatsApp, email, or print
+
+---
+
+## 📁 Project Structure
+
+```
+EasyBill/
+├── android/                  # Native Android (Kotlin) files
+├── src/
+│   ├── screens/
+│   │   ├── BillingScreen.tsx      # Bill generation UI
+│   │   ├── InventoryScreen.tsx    # Add/manage products
+│   │   └── ShopInfoScreen.tsx     # Shop settings
+│   ├── components/
+│   │   ├── BillPreview.tsx        # Receipt layout component
+│   │   ├── ItemCard.tsx           # Inventory item card
+│   │   └── SearchBar.tsx          # Item search input
+│   ├── storage/
+│   │   └── AsyncStorageHelper.ts  # Local data read/write
+│   └── utils/
+│       └── billCapture.ts         # react-native-view-shot logic
+├── assets/
+│   └── screenshots/               # App screenshots
+├── App.tsx
+└── package.json
+```
+
+---
+
+## 🔮 Planned Features (Roadmap)
+
+- [ ] PDF bill export
+- [ ] Low stock alerts / notifications
+- [ ] Monthly sales summary report
+- [ ] Multi-language support (Hindi, Tamil, Telugu)
+- [ ] Barcode scanner integration for faster billing
+- [ ] Backup & restore via local file export
+
+---
+
+## 🙋 About This Project
+
+EasyBill was built as a **personal portfolio project** to demonstrate real-world mobile app development skills including:
+
+- Building production-grade React Native apps with TypeScript
+- Managing local state and persistence without a backend
+- Integrating native Android modules (Kotlin) for file system access
+- Designing clean, user-friendly mobile UIs for non-technical users
+- Solving a genuine problem faced by millions of small business owners in India
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+
+Built with ❤️ for Indian small business owners
+
+**[Portfolio](https://your-portfolio.com)** · **[LinkedIn](https://linkedin.com/in/your-profile)** · **[GitHub](https://github.com/your-username)**
+
+</div>
