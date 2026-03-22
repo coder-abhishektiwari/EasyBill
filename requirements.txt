@@ -1,0 +1,4 @@
+npm install react-native-camera-kit 
+npm install react-native-barcode-mask 
+npm install react-native-sound 
+npm install @react-native-async-storage/async-storage
