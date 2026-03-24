@@ -11,7 +11,7 @@
 
 ---
 
-EasyBill is an offline Android billing app for small shop owners. Add your items (name, barcode, rate) once — then generate professional bills in seconds. All data stays on your device.
+EasyBill is an offline billing mobile app for small shop owners. Add your items (name, barcode, rate) once — then generate professional bills in seconds. All data stays on your device.
 
 ---
 
@@ -49,13 +49,24 @@ EasyBill is an offline Android billing app for small shop owners. Add your items
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/your-username/EasyBill.git
+# Clone the repository
+git clone https://github.com/coder-abhishektiwari/EasyBill.git
+
+# Navigate to project folder
 cd EasyBill
+
+# Install dependencies
 npm install
+
+# --- Run on Android ---
 npx react-native run-android
+
+# --- Run on iOS (macOS Only) ---
+cd ios && pod install && cd ..
+npx react-native run-ios
 ```
 
-> Make sure Android Studio and JDK 17 are installed before running.
+> Make sure SDK, NDK and JDK 17 are installed before running.
 
 ---
 
